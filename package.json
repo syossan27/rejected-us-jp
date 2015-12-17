@@ -1,14 +1,14 @@
 {
-  "name": "rejected.us",
+  "name": "rejected-us-jp",
   "version": "1.0.0",
-  "description": "Everyone’s been rejected - these are our stories",
+  "description": "jkup氏が作成したrejected.usの日本版です",
   "main": "server.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jkup/rejected.us.git"
+    "url": "git+https://github.com/syossan27/rejeced-us-jp.git"
   },
   "keywords": [
     "rejected",
@@ -16,16 +16,19 @@
     "tech",
     "interviews"
   ],
-  "author": "Jon Kuperman",
+  "author": "syossan27",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jkup/rejected.us/issues"
+    "url": "https://github.com/syossan27/rejeced-us-jp/issues"
   },
-  "homepage": "https://github.com/jkup/rejected.us#readme",
+  "homepage": "https://github.com/syossan27/rejeced-us-jp#readme",
   "dependencies": {
     "express": "^4.13.3",
     "express-react-views": "^0.9.0",
     "react": "^0.14.3",
     "react-dom": "^0.14.3"
+  },
+  "engines": {
+    "node": "5.3"
   }
 }
