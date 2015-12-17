@@ -9,12 +9,14 @@ app.use(express.static('public'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jsx');
 app.engine('jsx', require('express-react-views').createEngine());
+app.set('port', (process.env.PORT || 5000));
 
 app.get('/', function(req, res) {
   const data = JSON.parse(fs.readFileSync('data/data.json', 'utf8'));
   res.render('index', { title: "They Rejected Us.", stories: data.stories.reverse() });
 });
 
-var server = app.listen(8080, function () {
-  console.log('Listening at http://localhost:8080');
+
+var server = app.listen(app.get('port'), function () {
+  console.log('Node app is running on port', app.get('port'));
 });
