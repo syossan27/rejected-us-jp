@@ -31,8 +31,8 @@ var DefaultLayout = React.createClass({
           // End Github ribbon
           <header className="text-center">
             <h1 className="title">They Rejected Us in JP.</h1>
-            <div>誰もがお祈りされています。 - これはそんな私達のストーリーです。</div>
-            <div>あなたのストーリーを追加しませんか？</div>
+            <div>誰もが会社からお祈りされています。 - これはそんな私達のストーリーです。</div>
+            <div>あなたの祈られストーリーを追加しませんか？</div>
             <div><a href="https://github.com/syossan27/rejected-us-jp/issues/new">issueを追加</a> か こちらのTwitterアカウントに連絡 <a href="https://twitter.com/syossan27">@syossan27</a>していただければこちらで追加します。</div>
           </header>
           <div className="grid text-center Rejections">{this.props.children}</div>
