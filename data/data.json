@@ -1,12 +1,27 @@
 {
   "stories": [
     {
+      "fullName": "春山 征吾",
+      "handle": "haruyama",
+      "website": "https://twitter.com/haruyama",
+      "bio": "合同会社探求",
+      "avatar": "haruyama.jpeg",
+      "story": [
+          "リクルート: メディアテクノロジーラボ(当時)をリクルートエージェント経由で受けたが, 1回目の面接が人事で会社に合わない人と判断され終了",
+          "ライブドア: CTOを紹介してもらって面談したあと普通の採用ルートから応募. 1回目の面接で不採用. エージェントを経由していないので理由は不明.",
+          "ドワンゴ: エージェント経由で技術部長クラス2名と面談したが, エージェントの紹介が酷くまた話も盛り上らず終了 もう存在しない小さい会社: 報酬面で折り合いがつかず"
+      ],
+      "double": true
+    },
+    {
       "fullName": "黒木 俊太郎",
       "handle": "syunk38",
       "website": "https://twitter.com/syunk38",
       "bio": "Liversense",
       "avatar": "Syun.png",
-      "story": "Smartnews行きたかったけどネイティブアプリの開発経験なくてお祈りされたよ！ 今の会社でWEBガッツリやるのも面白いけど、ネイティブアプリの開発も業務でやってみたい。",
+      "story": [
+        "Smartnews行きたかったけどネイティブアプリの開発経験なくてお祈りされたよ！ 今の会社でWEBガッツリやるのも面白いけど、ネイティブアプリの開発も業務でやってみたい。"
+      ],
       "double": false
     },
     {
@@ -15,7 +30,9 @@
       "website": "http://syossan.hateblo.jp/",
       "bio": "Innova.inc",
       "avatar": "syossan27.png",
-      "story": "ここに会社からお祈りされたストーリーが入ります:-) 例.Micr◯s◯ftに面接に行ったけど開発経験が少なすぎて落とされちゃったよ。",
+      "story": [
+        "ここに会社からお祈りされたストーリーが入ります:-) 例.Micr◯s◯ftに面接に行ったけど開発経験が少なすぎて落とされちゃったよ。"
+      ],
       "double": false
     }
   ]
